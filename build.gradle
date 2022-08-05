@@ -21,7 +21,7 @@ repositories {
 dependencies {
     implementation project(':core')
     implementation project(':service1:api')
-    implementation project(':service1:impl')
+    implementation project(':service1')
     implementation project(':service2')
     implementation project(':service3')
 
@@ -74,7 +74,7 @@ subprojects {
     }
 }
 
-project(':service1:impl') {
+project(':service1') {
     dependencies {
         implementation project(':core')
         implementation project(':service1:api')

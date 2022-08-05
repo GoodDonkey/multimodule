@@ -1,6 +1,6 @@
 rootProject.name = 'multimodule'
 
-include("service1:api", "service1:impl")
+include("service1:api", "service1")
 include("service2")
 include("service3")
 include("service4")
